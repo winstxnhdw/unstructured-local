@@ -13,7 +13,7 @@ class Config(HypercornConfig):
     ----------
     openai_api_key (str) : the openai api key
     """
-    _bind = [f"0.0.0.0:{env['BACKEND_PORT']}"]
+    _bind = [f"0.0.0.0:{env['SERVER_PORT']}"]
     access_log_format = '%(s)s "%(R)s" %(h)s "%(a)s"'
     accesslog = '-'
     use_reloader = True
