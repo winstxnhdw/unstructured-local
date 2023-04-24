@@ -9,6 +9,6 @@ async def extract(request: UploadFile) -> str:
     """
     Summary
     -------
-    the `extract` route consumes a file and returns a string of the extracted elements
+    the `/extract` route consumes a file and returns a string of extracted elements
     """
     return "\n\n".join(str(element) for element in partition(file=request.file))
