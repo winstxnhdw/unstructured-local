@@ -1,0 +1,5 @@
+{$BACKEND_URL}:{$BACKEND_PORT} {
+	handle_path /api/* {
+		reverse_proxy {$BACKEND_CONTAINER_NAME}:{$BACKEND_PORT}
+	}
+}

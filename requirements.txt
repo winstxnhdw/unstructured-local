@@ -1,0 +1,3 @@
+fastapi >= 0.95.0
+hypercorn >= 0.14.3
+python-multipart >= 0.0.6
