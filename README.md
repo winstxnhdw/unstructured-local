@@ -1,6 +1,6 @@
 # unstructured-local
 
-A locally hosted server with HTTP/2 support for [unstructured](https://github.com/Unstructured-IO/unstructured) with FastAPI.
+A locally hosted FastAPI server with HTTP/2 support for [unstructured](https://github.com/Unstructured-IO/unstructured).
 
 ## Setup
 
