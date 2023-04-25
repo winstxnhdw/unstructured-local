@@ -1,5 +1,8 @@
 # unstructured-local
 
+[![dependabot.yml](https://github.com/winstxnhdw/unstructured-local/actions/workflows/dependabot.yml/badge.svg)](https://github.com/winstxnhdw/unstructured-local/actions/workflows/dependabot.yml)
+[![CodeQL](https://github.com/winstxnhdw/unstructured-local/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/winstxnhdw/unstructured-local/actions/workflows/github-code-scanning/codeql)
+
 A locally hosted FastAPI server with HTTP/2 support for [unstructured](https://github.com/Unstructured-IO/unstructured).
 
 ## Setup
