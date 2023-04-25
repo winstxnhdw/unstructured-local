@@ -15,5 +15,5 @@ echo SERVER_PORT=5555 >> .env
 Run the following command to start the server.
 
 ```bash
-docker compose up --build
+docker compose up
 ```
