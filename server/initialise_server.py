@@ -16,8 +16,6 @@ def initialise_server():
     """
     app = FastAPI(root_path='/api')
     app.include_router(v1)
-    app.on_event('startup')(lambda: print('The server has started!'))
-    app.on_event('shutdown')(lambda: print('The server has shutdown!'))
     app.add_middleware(
         CORSMiddleware,
         allow_credentials=True,
