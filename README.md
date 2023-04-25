@@ -20,3 +20,43 @@ Run the following command to start the server.
 ```bash
 docker compose up
 ```
+
+## Usage
+
+### Delete answer(s) to the knowledge base
+
+<details>
+
+<summary><code>POST</code> <code><b>/extract</b></code> <code>(extract all elements into strings from a file)</code></summary>
+
+#### Body
+
+> | name       |  type    | data type               | description                                                           |
+> |------------|----------|-------------------------|-----------------------------------------------------------------------|
+> | file       | required | `binary`                | file for string extraction                                            |
+
+#### Responses
+
+> | http code     | content-type                   | response                                                               |
+> |---------------|--------------------------------|------------------------------------------------------------------------|
+> | `200`         | `text/plain`                   | concatenated string of all elements                                    |
+
+</details>
+
+<details>
+
+<summary><code>POST</code> <code><b>/extract_text</b></code> <code>(extract all texts from a file)</code></summary>
+
+#### Body
+
+> | name       |  type    | data type               | description                                                           |
+> |------------|----------|-------------------------|-----------------------------------------------------------------------|
+> | file       | required | `binary`                | file for string extraction                                            |
+
+#### Responses
+
+> | http code     | content-type                   | response                                                               |
+> |---------------|--------------------------------|------------------------------------------------------------------------|
+> | `200`         | `text/plain`                   | concatenated string of extracted text                                  |
+
+</details>
