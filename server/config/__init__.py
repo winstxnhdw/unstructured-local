@@ -15,5 +15,4 @@ class Config(HypercornConfig):
     """
     _bind = [f"0.0.0.0:{env['UNSTRUCTURED_PORT']}"]
     access_log_format = '%(s)s "%(R)s" %(h)s "%(a)s"'
-    accesslog = '-'
-    use_reloader = True
+    # accesslog = '-'
