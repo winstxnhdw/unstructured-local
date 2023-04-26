@@ -25,7 +25,7 @@ services:
 
 <details>
 
-<summary><code>POST</code> <code><b>/extract</b></code> <code>(extract all elements into strings from a file)</code></summary>
+<summary><code>POST</code> <code><b>/v1/extract</b></code> <code>(extract all elements into strings from a file)</code></summary>
 
 #### Body
 
@@ -43,7 +43,7 @@ services:
 
 <details>
 
-<summary><code>POST</code> <code><b>/extract_text</b></code> <code>(extract all texts from a file)</code></summary>
+<summary><code>POST</code> <code><b>/v1/extract_text</b></code> <code>(extract all texts from a file)</code></summary>
 
 #### Body
 
