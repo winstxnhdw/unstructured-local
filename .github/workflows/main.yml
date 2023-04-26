@@ -6,6 +6,7 @@ on:
       - Dockerfile
       - server/**
       - .github/workflows/main.yml
+      - requirements.txt
 
 permissions:
   packages: write
