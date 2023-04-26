@@ -6,6 +6,19 @@
 
 A locally hosted FastAPI server with HTTP/2 support for [unstructured](https://github.com/Unstructured-IO/unstructured).
 
+## Setup
+
+Use the following example docker compose file.
+
+```yaml
+services:
+  unstructured:
+    environment:
+      UNSTRUCTURED_PORT: ${UNSTRUCTURED_PORT}
+    image: ghcr.io/winstxnhdw/unstructured-local:main
+    container_name: ${UNSTRUCTURED_CONTAINER_NAME}
+```
+
 ## Usage
 
 ### Extract elements from a file
