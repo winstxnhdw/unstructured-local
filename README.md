@@ -8,7 +8,7 @@ A locally hosted FastAPI server with HTTP/2 support for [unstructured](https://g
 
 ## Usage
 
-### Delete answer(s) to the knowledge base
+### Extract elements from a file
 
 <details>
 
