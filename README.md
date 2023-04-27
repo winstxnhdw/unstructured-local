@@ -13,10 +13,10 @@ Use the following example docker compose file.
 ```yaml
 services:
   unstructured:
+    container_name: unstructured
     environment:
       UNSTRUCTURED_PORT: ${UNSTRUCTURED_PORT}
     image: ghcr.io/winstxnhdw/unstructured-local:main
-    container_name: ${UNSTRUCTURED_CONTAINER_NAME}
     privileged: true
     healthcheck:
       test: ['CMD-SHELL', 'curl http://localhost:${UNSTRUCTURED_PORT}/v1/']
