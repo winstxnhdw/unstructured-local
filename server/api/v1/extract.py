@@ -5,7 +5,7 @@ from server.api.v1 import v1
 
 
 @v1.post('/extract')
-async def extract(request: UploadFile) -> str:
+async def extract(request: UploadFile, response_model=str):
     """
     Summary
     -------
