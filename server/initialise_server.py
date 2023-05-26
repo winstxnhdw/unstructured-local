@@ -14,7 +14,7 @@ def initialise_server():
     -------
     initialize the server
     """
-    app = FastAPI(root_path='/api')
+    app = FastAPI()
     app.include_router(v1)
     app.add_middleware(
         CORSMiddleware,
